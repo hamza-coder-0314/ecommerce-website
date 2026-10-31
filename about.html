@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <section class="cars-section">
+
+        <div class="heading">
+            <span>DISCOVER</span>
+            <h1>Luxury & Future Cars</h1>
+            <p>
+                Explore our collection of powerful, luxurious and futuristic
+                automobiles designed to deliver an unforgettable driving experience.
+            </p>
+        </div>
+
+        <div class="slider">
+
+            <div class="slide active">
+                <div class="car-image">
+                    <img src="./images (1).jpg" alt="BMW Luxury SUV">
+                </div>
+
+                <div class="car-info">
+                    <span class="number">01 / 03</span>
+                    <h2>BMW Luxury SUV</h2>
+
+                    <p>
+                        The BMW luxury SUV combines elegant styling, impressive
+                        road presence and advanced automotive technology. Its
+                        distinctive front grille, sharp LED headlights and
+                        sculpted body give it a powerful and premium appearance.
+                    </p>
+
+                    <p>
+                        Inside, the cabin is designed around comfort and
+                        sophistication. Premium materials, modern digital
+                        displays and intelligent features create an enjoyable
+                        environment for both the driver and passengers.
+                    </p>
+
+                    <p>
+                        With its combination of performance, comfort and modern
+                        design, this SUV is an excellent choice for drivers who
+                        want luxury without compromising practicality.
+                    </p>
+
+                    <div class="features">
+                        <div>
+                            <strong>Luxury</strong>
+                            <small>Premium Interior</small>
+                        </div>
+
+                        <div>
+                            <strong>Power</strong>
+                            <small>Strong Performance</small>
+                        </div>
+
+                        <div>
+                            <strong>Tech</strong>
+                            <small>Modern Features</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="car-image">
+                    <img src="./images (2).jpg" alt="Bugatti Chiron">
+                </div>
+
+                <div class="car-info">
+                    <span class="number">02 / 03</span>
+                    <h2>Bugatti Chiron</h2>
+
+                    <p>
+                        The Bugatti Chiron represents the highest level of
+                        automotive performance and luxury. Its dramatic body
+                        design, low profile and distinctive horseshoe grille
+                        immediately communicate speed and exclusivity.
+                    </p>
+
+                    <p>
+                        The aerodynamic shape has been carefully designed to
+                        control airflow while maintaining the unmistakable
+                        character of the vehicle. Every curve and surface
+                        contributes to its powerful visual identity.
+                    </p>
+
+                    <p>
+                        Inside the cabin, premium craftsmanship meets advanced
+                        engineering. High-quality materials and a driver-focused
+                        layout create an environment worthy of one of the world's
+                        most prestigious performance cars.
+                    </p>
+
+                    <div class="features">
+                        <div>
+                            <strong>Speed</strong>
+                            <small>Extreme Performance</small>
+                        </div>
+
+                        <div>
+                            <strong>Luxury</strong>
+                            <small>Premium Craftsmanship</small>
+                        </div>
+
+                        <div>
+                            <strong>Design</strong>
+                            <small>Iconic Styling</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Slide 3 -->
+            <div class="slide">
+                <div class="car-image">
+                    <img src="/images (3).jpg" alt="Futuristic Concept Car">
+                </div>
+
+                <div class="car-info">
+                    <span class="number">03 / 03</span>
+                    <h2>Future Concept Car</h2>
+
+                    <p>
+                        This futuristic concept car presents a bold vision of
+                        what the next generation of automobiles could look like.
+                        Its extremely low body, smooth aerodynamic surfaces and
+                        futuristic lighting create a distinctive appearance.
+                    </p>
+
+                    <p>
+                        The vehicle focuses on the relationship between design,
+                        technology and performance. Its streamlined silhouette
+                        reduces visual resistance while creating a sporty and
+                        sophisticated personality.
+                    </p>
+
+                    <p>
+                        The interior concept is imagined around intelligent
+                        technology, digital interfaces and a driver-centered
+                        experience. It represents a future where automobiles
+                        become smarter, cleaner and more connected.
+                    </p>
+
+                    <div class="features">
+                        <div>
+                            <strong>Future</strong>
+                            <small>Next-Gen Design</small>
+                        </div>
+
+                        <div>
+                            <strong>Smart</strong>
+                            <small>Advanced Technology</small>
+                        </div>
+
+                        <div>
+                            <strong>Style</strong>
+                            <small>Aerodynamic Body</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Buttons -->
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+
+        </div>
+
+        <!-- Dots -->
+        <div class="dots">
+            <span class="dot active-dot" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
