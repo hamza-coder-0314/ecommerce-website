@@ -1,7 +1,13 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
 .contact-section {
     width: 100%;
     padding: 100px 7%;
-    background: #07111c;
+    background: #172838;
     color: white;
 }
 
