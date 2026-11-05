@@ -16,6 +16,7 @@ function signUp() {
 let signupBtn = document.getElementById("signup");
 let loginBtn = document.getElementById("login");
 let logoutBtn = document.getElementById("logout");
+let profileImg = document.getElementById("profile")
 
 // logoutBtn.style.display = "none";
 
@@ -25,6 +26,8 @@ let localPassword = localStorage.getItem("signuppassword")
 if (localEmail === null && localPassword === null) {
     
     logoutBtn.style.display = "none";
+    profileImg.style.display = "none"
+
     
 }else{
     
